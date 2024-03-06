@@ -1,0 +1,163 @@
+/* style.css */
+
+body {
+  background-color: #111111;
+  background-image: url(../image/Pizza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  position: relative;
+}
+
+.container {
+  width: 80%; 
+  max-width: 400px; 
+  margin: 20px auto; 
+  background-color: rgb(255, 255, 255, 1.0); 
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+  position: relative;
+  margin-bottom: 5px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.topping-label input[type="checkbox"] {
+  margin-right: -250px;
+  vertical-align: middle;
+  display: inline-block;
+  order: 2;
+}
+
+.topping-label {
+  display: flex;
+  align-items:center;
+  margin-bottom: 0px; 
+  text-align: left;
+  justify-content: space-between;
+  width: 300px;
+}
+
+
+header {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  margin: 20px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}
+
+.alert {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+  border-radius: 5px;
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#totalCost {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff8c00; 
+  margin-top: 15px;
+}
+
+#summaryCost {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff8c00; 
+  margin-top: 15px;
+}
+
+#welcomeMessage {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black; 
+}
+
+#summary {
+  margin-top: -25px;
+}
+#orderDetails {
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+#orderDetails p {
+  margin-bottom: 10px;
+}
+
+#confirmButton,
+#cancelButton {
+  margin-top: 20px;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-link:hover {
+  background-color: #ff8c00;
+}
+
+#text {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -25px;
+  width: 100%;
+}
